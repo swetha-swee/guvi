@@ -1,0 +1,25 @@
+source=int(input("enter the value of a:"))
+destination=int(input("enter the value of b:"))
+i=1
+km=destination-source
+print(km)
+while(i>0):
+  d=input("choose the type of car:")
+  if(d=='prime'):
+    total=km * 30
+    print(total)
+  elif(d=='micro'):
+    total=km * 20
+    print(total)
+  elif(d=='mini'):
+    total=km * 10   
+    print(total)
+  else:
+    print("exit")
+  while(i>0):
+   e=input("do you want to continue:")
+   if(e=='yes'):
+    print(total)
+   else:
+     i=0
+     print("exit")
